@@ -1,14 +1,24 @@
-﻿<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+﻿<!DOCTYPE html 
 <html>
 <head>
 <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
 <title>Resilience-Homepage</title>
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
 <meta name="keywords" content="" />
 <meta name="description" content="" />
 <link href="http://fonts.googleapis.com/css?family=Source+Sans+Pro:200,300,400,600,700,900" rel="stylesheet" />
 <link href="default.css" rel="stylesheet" type="text/css" media="all" />
 <link href="fonts.css" rel="stylesheet" type="text/css" media="all" />
 
+<style>
+.counter{
+background-color:#2b2b2b;
+color:#6c6c6c;
+font-weight:bold;
+}
+</style>
+
+<SCRIPT   src="counter.js"></SCRIPT>
 
 
 <!--[if IE 6]><link href="default_ie6.css" rel="stylesheet" type="text/css" /><![endif]-->
@@ -18,26 +28,24 @@
 <div id="header-wrapper">
 	<div id="header" class="container">
 		<div id="logo">
-			<h1><a href="#">RESILIENCE</a></h1>
+			<h1>RESILIENCE</h1>
 		</div>
 		<div id="menu">
 			<ul>
-				<li><a href="#" accesskey="1" title="">Homepage</a></li>
-				<li><a href="#" accesskey="2" title="">About Us</a></li>
+				<li><a href="" accesskey="1" title="">Homepage</a></li>
+				<li><a href="E:\Resilience Webpage\about_us_page\about-us.html" accesskey="2" title="">About Us</a></li>
 				<li><a href="#" accesskey="3" title="">e-Magazine</a></li>
-				<li><a href="#" accesskey="4" title="">Contact Us</a></li>
+				<li><a href="E:\Resilience Webpage\contact_us_page\contact_us.html" accesskey="4" title="">Contact Us</a></li>
 			</ul>
 		</div>
-	</div>
+	</div><br><br><br><br>
 	<div id="header-featured">
 		<div id="banner-wrapper">
-			<div id="banner" class="container">
-				<h2>TEAM RESILIENCE</h2>
-				<p>This website is designed and created by <strong>Team Resilience</strong> ( a certified team of Dr. B.R. Ambedkar National Institute of Technology, Jalandhar). The photos in this website are from the team members of Resilience. Have fun and explore your college :) </p>
-				<a href="#" class="button">About NIT Jalandhar</a> </div>
+			<div id="banner" class="container"> </div>
 		</div>
 	</div>
 </div>
+<div style="text-align: center;"><a href="E:\Resilience Webpage\about-nitj_page/about_page.html" class="button">About NIT Jalandhar</a></div>
 <div id="wrapper">
 	<div id="page" class="container">
 		<div id="content">
@@ -89,41 +97,10 @@
 </div>
 <div id="copyright" class="container">
 	<p>&copy; Resilience
-. All rights reserved. | Photos by Team Resilience | Website desined and maintained by Suhit Kumar (A member of Team- Resilience)</a>.</p>
-</div>
-<script type="text/javascript">
-tday=new Array("Sunday","Monday","Tuesday","Wednesday","Thursday","Friday","Saturday");
-tmonth=new Array("January","February","March","April","May","June","July","August","September","October","November","December");
-
-function GetClock(){
-var d=new Date();
-var nday=d.getDay(),nmonth=d.getMonth(),ndate=d.getDate(),nyear=d.getFullYear();
-var nhour=d.getHours(),nmin=d.getMinutes(),nsec=d.getSeconds(),ap;
-
-if(nhour==0){ap=" AM";nhour=12;}
-else if(nhour<12){ap=" AM";}
-else if(nhour==12){ap=" PM";}
-else if(nhour>12){ap=" PM";nhour-=12;}
-
-if(nmin<=9) nmin="0"+nmin;
-if(nsec<=9) nsec="0"+nsec;
-
-document.getElementById('clockbox').innerHTML=""+tday[nday]+", "+tmonth[nmonth]+" "+ndate+", "+nyear+" "+nhour+":"+nmin+":"+nsec+ap+"";
-}
-
-window.onload=function(){
-GetClock();
-setInterval(GetClock,1000);
-}
-</script>
+. All rights reserved. | Photos by Team Resilience | Website designed and maintained by Suhit Kumar (A member of Team- Resilience).</p>
+<p>Number of visitors of this site : <SCRIPT> page_counter(jcount); </SCRIPT></p>
+<script type="text/javascript"   src="clock.js"></script>
 <div id="clockbox" style="text-align: center;"></div>
-<br>
-<br>
-
-
-<div align='center'><font size="6">You are Visitor No. :  </font>  <img src='http://hit-counter-html-code.com/wp-content/themes/customizr/hitcounter/c.php?d=9&id=162663&s=7' border='0'></a><br / ></div>
-
-
-
+</div>
 </body>
 </html>

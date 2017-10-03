@@ -72,13 +72,13 @@ a:hover
 .image img
 {
 	display: block;
-	width: 100%;
+	width: 90%;
 }
 
 .image-full
 {
 	display: block;
-	width: 100%;
+	width:90%;
 	margin: 0 0 2em 0;
 }
 
@@ -368,8 +368,8 @@ ul.contact li a.icon-rss:before
 	
 #header-wrapper
 {
-	background: #2b2b2b url(images/banner.jpg) no-repeat center;
-	background-size: auto 100%;
+	background: #2b2b2b url(images/banner.png) no-repeat center;
+	background-size: auto 50%;
 }
 
 #header
